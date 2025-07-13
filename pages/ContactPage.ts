@@ -9,7 +9,7 @@ export class ContactPage {
   // Navigate to homepage and scroll to Contact section
   async openContactForm() {
     console.log('Navigating to homepage...');
-    await this.page.goto('https://automationintesting.online');
+    await this.page.goto('/');
 
     // Scroll to #contact section smoothly
     await this.page.evaluate(() => {

@@ -6,7 +6,7 @@ export class BookingPage {
   // Navigate to the homepage
   async navigate() {
     console.log('Navigating to homepage...');
-    await this.page.goto('https://automationintesting.online');
+    await this.page.goto('/');
   }
 
   // Scroll down to the "Our Rooms" section
